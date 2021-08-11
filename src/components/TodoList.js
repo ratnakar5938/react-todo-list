@@ -48,7 +48,14 @@ function TodoList() {
             return todo;
         });
         setTodos(updatedTodos);
-
+        let getUpdate = JSON.parse(localStorage.getItem("todos"));
+        const newTodo = getUpdate.map(item => {
+            if (item.id === id) {
+                item.isComplete = !item.isComplete;
+            }
+            return item;
+        });
+        localStorage.setItem("todos", JSON.stringify(newTodo));
     };
 
     return (
