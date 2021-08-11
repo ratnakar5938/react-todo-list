@@ -19,7 +19,6 @@ function TodoList() {
         const newTodos = [todo, ...todos];
 
         setTodos(newTodos);
-        console.log(...todos);
         localStorage.setItem("todos", JSON.stringify(newTodos));
     };
 
@@ -29,7 +28,12 @@ function TodoList() {
         }
 
         setTodos(prev => prev.map(item => (item.id === todoId ? newValue : item)));
-        // localStorage.setItem("todos", JSON.stringify(prev => prev.map(item => (item.id === todoId ? newValue : item))));
+        const todoUpdate = (prev) => prev.map(item => (
+            item.id === todoId ?
+                localStorage.setItem("todos", JSON.stringify(newValue, ...todos))
+                : localStorage.setItem("todos", JSON.stringify(...todos))
+        ))
+        todoUpdate();
     };
 
     const removeTodo = id => {
@@ -47,7 +51,7 @@ function TodoList() {
             return todo;
         });
         setTodos(updatedTodos);
-        // localStorage.setItem("todos", JSON.stringify(updateTodo));
+
     };
 
     return (
