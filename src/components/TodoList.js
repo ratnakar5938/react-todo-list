@@ -29,8 +29,7 @@ function TodoList() {
         }
 
         setTodos(prev => prev.map(item => (item.id === todoId ? newValue : item)));
-        console.log(...todos)
-        localStorage.setItem("todos", JSON.stringify(todos));
+        localStorage.setItem("todos", JSON.stringify(prev => prev.map(item => (item.id === todoId ? newValue : item))));
     };
 
     const removeTodo = id => {
@@ -48,8 +47,7 @@ function TodoList() {
             return todo;
         });
         setTodos(updatedTodos);
-        console.log(...todos)
-        localStorage.setItem("todos", JSON.stringify(todos));
+        localStorage.setItem("todos", JSON.stringify(updateTodo));
     };
 
     return (
