@@ -46,6 +46,7 @@ function TodoList() {
             return todo;
         });
         setTodos(updatedTodos);
+        localStorage.setItem("todos", JSON.stringify(updateTodo));
     };
 
     return (
