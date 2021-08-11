@@ -6,12 +6,18 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+@media (max-width: 767px) {
+  .todo-app {
+    max-width: 90vw;
+  }
+}
+
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
-  );
+  background: rgba(48, 16, 255, 1);
+  max-width: 90vw;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 .todo-app {
   display: flex;
