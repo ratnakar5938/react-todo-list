@@ -10,15 +10,15 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
     });
 
     const submitUpdate = value => {
-        updateTodo(edit.id, value)
+        updateTodo(edit.id, value);
         setEdit({
             id: null,
             value: ''
-        })
-    }
+        });
+    };
 
     if (edit.id) {
-        return <TodoForm edit={edit} onSubmit={submitUpdate} />
+        return <TodoForm edit={edit} onSubmit={submitUpdate} />;
     }
 
     return todos.map((todo, index) => (
@@ -32,11 +32,11 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
             <div className='icons'>
                 <RiCloseCircleLine
                     onClick={() => removeTodo(todo.id)}
-                    className="delete-icon"
+                    className='delete-icon'
                 />
                 <TiEdit
                     onClick={() => setEdit({ id: todo.id, value: todo.text })}
-                    className="edit-icon"
+                    className='edit-icon'
                 />
             </div>
         </div>

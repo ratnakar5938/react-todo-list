@@ -1,34 +1,42 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import TodoForm from './TodoForm';
 import Todo from './Todo';
-import TodoForm from './TodoForm'
 
 function TodoList() {
-
-    const [todos, setTodos] = useState([])
+    let initTodo;
+    if (localStorage.getItem("todos") === null) {
+        initTodo = [];
+    } else {
+        initTodo = JSON.parse(localStorage.getItem("todos"));
+    }
+    const [todos, setTodos] = useState(initTodo);
 
     const addTodo = todo => {
         if (!todo.text || /^\s*$/.test(todo.text)) {
-            return
+            return;
         }
 
-        const newTodos = [todo, ...todos]
+        const newTodos = [todo, ...todos];
 
         setTodos(newTodos);
-        console.log(...todos)
+        console.log(...todos);
+        localStorage.setItem("todos", JSON.stringify(newTodos));
     };
 
     const updateTodo = (todoId, newValue) => {
         if (!newValue.text || /^\s*$/.test(newValue.text)) {
-            return
+            return;
         }
+
         setTodos(prev => prev.map(item => (item.id === todoId ? newValue : item)));
-    }
+    };
 
     const removeTodo = id => {
-        const removeArr = [...todos].filter(todo => todo.id !== id)
+        const removedArr = [...todos].filter(todo => todo.id !== id);
 
-        setTodos(removeArr);
-    }
+        setTodos(removedArr);
+        localStorage.setItem("todos", JSON.stringify(removedArr));
+    };
 
     const completeTodo = id => {
         let updatedTodos = todos.map(todo => {
@@ -38,11 +46,11 @@ function TodoList() {
             return todo;
         });
         setTodos(updatedTodos);
-    }
+    };
 
     return (
         <>
-            <h1>What's the plan for today</h1>
+            <h1>What's the Plan for Today?</h1>
             <TodoForm onSubmit={addTodo} />
             <Todo
                 todos={todos}
@@ -51,7 +59,7 @@ function TodoList() {
                 updateTodo={updateTodo}
             />
         </>
-    )
+    );
 }
 
-export default TodoList
+export default TodoList;
