@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "samridh1053",
+      "name": "Samridh Gupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81260857?v=4",
+      "profile": "https://github.com/samridh1053",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "react-todo-list",
+  "projectOwner": "ratnakar5938",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

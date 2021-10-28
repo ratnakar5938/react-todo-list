@@ -81,19 +81,23 @@ Please adhere to this project's `code of conduct`.
 </table>
 
 </tbody></table>
-<h2 align=center> ✨ Contributors </h2>
 
-Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀
+## Contributors ✨
 
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
-	<tr>
-		 <td>
-  <a href="https://github.com/ratnakar5938/react-todo-list/graphs/contributors">
-  <img alt="" src="https://avatars.githubusercontent.com/ratnakar5938"  width="50px;" style="margin-right:10px;" />
-  <img src="https://avatars.githubusercontent.com/u/81260857?s=460&v=4"  width="50px;" style="margin-right:10px;" />
-  </a>
-		</td>
-	</tr>
+  <tr>
+    <td align="center"><a href="https://github.com/samridh1053"><img src="https://avatars.githubusercontent.com/u/81260857?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Samridh Gupta</b></sub></a><br /><a href="https://github.com/ratnakar5938/react-todo-list/commits?author=samridh1053" title="Documentation">📖</a></td>
+  </tr>
 </table>
-<br>
-<b>Contributions of any kind are welcome!</b>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
