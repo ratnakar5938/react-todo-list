@@ -66,7 +66,7 @@ Start the server
 
 Contributions are always welcome!
 
-See `Contribution.md` for ways to get started.
+See `CONTRIBUTING.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
