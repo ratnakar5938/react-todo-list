@@ -89,7 +89,8 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀
 	<tr>
 		 <td>
   <a href="https://github.com/ratnakar5938/react-todo-list/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ratnakar5938/react-todo-list" />
+  <img alt="" src="https://avatars.githubusercontent.com/ratnakar5938"  width="50px;" style="margin-right:10px;" />
+  <img src="https://avatars.githubusercontent.com/u/81260857?s=460&v=4"  width="50px;" style="margin-right:10px;" />
   </a>
 		</td>
 	</tr>
