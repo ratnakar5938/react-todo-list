@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+<div align="center" >
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635425547/Todo-list/todo_mfhsov.png"  width="70%">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React to do list
 
-## Available Scripts
+Todo list app made in React
 
-In the project directory, you can run:
+Check out the [deployed site](https://react-todo-list-ratnakar.vercel.app/)
 
-### `yarn start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Client:** React, CSS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Deployment:** vercel
 
-### `yarn test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align="center">
 
-### `yarn build`
+### Home Page UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635424802/Todo-list/Screenshot_132_j8xf9u.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Update Page UI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635424807/Todo-list/Screenshot_133_epaiez.png">
+</div>
+<br/>
 
-### `yarn eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Install yarn into your system
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm install --global yarn
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Run Locally
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Clone the project
 
-## Learn More
+```bash
+  git clone https://github.com/ratnakar5938/react-todo-list.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Go to the project directory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  cd react-todo-list
+```
 
-### Code Splitting
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  yarn install
+```
 
-### Analyzing the Bundle Size
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  yarn start
+```
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are always welcome!
 
-### Advanced Configuration
+See `Contribution.md` for ways to get started.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Please adhere to this project's `code of conduct`.
 
-### Deployment
+## Project Admin
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="center">
+<table>
+  <tbody><tr>
+     <td align="center"><a href="https://github.com/ratnakar5938"><img alt="" src="https://avatars.githubusercontent.com/ratnakar5938" width="100px;"><br><sub><b> Ratnakar Sahoo </b></sub></a><br></td> </a></td>
+    </tr>
+  </tbody>
+</table>
 
-### `yarn build` fails to minify
+</tbody></table>
+<h2 align=center> ✨ Contributors </h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀
+
+<table>
+	<tr>
+		 <td>
+  <a href="https://github.com/ratnakar5938/Whatsapp-clone/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ratnakar5938/Whatsapp-clone" />
+  </a>
+		</td>
+	</tr>
+</table>
+<br>
+<b>Contributions of any kind are welcome!</b>
