@@ -92,6 +92,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/samridh1053"><img src="https://avatars.githubusercontent.com/u/81260857?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Samridh Gupta</b></sub></a><br /><a href="https://github.com/ratnakar5938/react-todo-list/commits?author=samridh1053" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ratnakar-sahoo-a78401135"><img src="https://avatars.githubusercontent.com/u/80893583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ratnakar Sahoo</b></sub></a><br /><a href="https://github.com/ratnakar5938/react-todo-list/commits?author=ratnakar5938" title="Code">💻</a> <a href="#content-ratnakar5938" title="Content">🖋</a></td>
   </tr>
 </table>
 
