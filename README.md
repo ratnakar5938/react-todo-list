@@ -88,8 +88,8 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀
 <table>
 	<tr>
 		 <td>
-  <a href="https://github.com/ratnakar5938/Whatsapp-clone/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ratnakar5938/Whatsapp-clone" />
+  <a href="https://github.com/ratnakar5938/react-todo-list/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ratnakar5938/react-todo-list" />
   </a>
 		</td>
 	</tr>
