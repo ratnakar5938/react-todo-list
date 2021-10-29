@@ -14,6 +14,12 @@ Check out the [deployed site](https://react-todo-list-ratnakar.vercel.app/)
 
 **Deployment:** vercel
 
+## Demo
+
+<div align="center">
+<img src="./demo.gif">
+</div>
+
 ## Screenshots
 
 <div align="center">
