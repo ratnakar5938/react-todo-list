@@ -23,7 +23,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 # Clone the repo
 $ git clone https://github.com/<User-Name>/<Repo-Name>.git
 # Add upstream remote
-$ git remote add upstream https://github.com/dscnitrourkela/<Repo-Name>.git
+$ git remote add upstream https://github.com/<Repo-Name>.git
 # Fetch and merge with upstream/main
 $ git fetch upstream
 $ git merge upstream/main
